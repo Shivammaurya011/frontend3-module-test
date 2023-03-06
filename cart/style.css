@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@100;800;900&family=Poppins&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+  main{
+    margin: 10px 35px;
+  }
+  main h1{
+    text-align: center;
+  }
+  main section{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+  }
+  .left-section{
+    width: 68%;
+  }
+  #items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .item{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+  }
+  .item img{
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+  }
+  .info{
+    padding: 0 15px;
+    font-weight: bold;
+  }
+  .price{
+    margin: 5px 0;
+  }
+  #addBtn{
+    height: 35px;
+    width: 200px;
+    cursor: pointer;
+    background-color: black;
+    margin-left: 15px;
+    color: white;
+  }
+  .right-section{
+    width: 30%;
+    color: white;
+    display: block;
+    padding: 15px;
+    background-color: black;
+  }
+  .carth{
+    width: 100%;
+    height: 45px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+  #totalPrice{
+    width: 100%;
+    padding: 15 0px;
+  }
+  .totalPrice{
+    display: flex;
+    justify-content: space-between;
+  }
+  .pbox{
+    margin-top: 35px;
+  }
+  .totalp{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+  }
+
+.right-section button{
+    
+    margin: 35px 15px;
+    cursor: pointer;
+    width: 90%;
+    height: 35px;
+    background-color: white;
+    color: black;
+}
+.cprice{
+  width: 65px;
+}

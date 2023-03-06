@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <a href="/" >MeShop.</a>
+            </div>
+            <div class="nav-items">
+                <a href="/" >Home</a>
+                <a href="/login" >Login</a>
+                <a href="/signup" >Signup</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Signup</h2>
+        <form>
+            <p id="ifname"></p>
+            <input id="firstName" type="text" name="name" placeholder="First Name"/>
+            <br>
+            <p id="ilname"></p>
+            <input id="lastName" type="text" name="name" placeholder="Last Name"/>
+            <br>
+            <p id="iemail"></p>
+            <input id="email" type="email" name="email" placeholder="Email"/>
+            <br>
+            <p id="ipassword"></p>
+            <input id="password" type="password" name="password" placeholder="Password" autocomplete="off"/>
+            <br>
+            <p id="icpassword"></p>
+            <input id="cpassword" type="password" name="password" placeholder="Confirm Password" autocomplete="off"/>
+            <br>
+            <button type="button" onclick="handleSignup()">Signup</button>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

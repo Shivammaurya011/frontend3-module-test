@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeShop.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <a href="/" >MeShop.</a>
+            </div>
+            <div class="nav-items">
+                <a href="/" >Home</a>
+                <a href="/login" >Login</a>
+                <a href="/signup" >Signup</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Login</h2>
+        <form>
+            <p id="iemail"></p>
+            <input id="email" type="email" name="email" placeholder="Email" autocomplete="off"/>
+            <br>
+            <p id="ipassword"></p>
+            <input id="password" type="password" name="password" placeholder="Password" autocomplete="off"/>
+            <br>
+            <button type="button" onclick="handleLogin()">Login</button>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

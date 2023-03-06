@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@100;800;900&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 100%;
+    height: 45px;
+    position: sticky;
+    background-color: black;
+}
+nav{
+    height: 100%;
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .brand a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+nav .nav-items a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+main{
+    padding: 25px 55px;
+}
+main h2{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+main form{
+    margin-top: 25px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+}
+button{
+    padding: 5px 35px;
+    width: 165px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    color: white;
+    background-color: black;
+}

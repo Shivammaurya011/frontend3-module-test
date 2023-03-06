@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeShop.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <a href="/">MeShop.</a>
+            </div>
+            <div class="nav-items">
+                <a href="/">Home</a>
+                <a href="/shop" >Shop</a>
+                <a href="/cart" >Cart</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>My Profile</h2>
+        <form>
+            <p id="ifname"></p>
+            <input id="fname" type="text" name="name" value="" placeholder="First Name"/>
+            <br>
+            <p id="ilname"></p>
+            <input id="lname" type="text" name="name" placeholder="Last Name"/>
+            <br>
+            <p id="iOldPass"></p>
+            <input id="oPassword" type="password" name="password" placeholder="Old Password"/>
+            <br>
+            <p id="inpassword"></p>
+            <input id="npassword" type="password" name="password" placeholder="New Password" autocomplete="off"/>
+            <br>
+            <p id="icpassword"></p>
+            <input id="cpassword" type="password" name="password" placeholder="Confirm New Password" autocomplete="off"/>
+            <br>
+            <button type="button" onclick="saveInfo()">Save Info</button>
+            <br>
+            <button type="button" onclick="handleLogout()">Logout</button>
+        </form>
+    </main>
+    <script src="./sctipt.js"></script>
+</body>
+</html>
